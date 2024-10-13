@@ -44,7 +44,7 @@ export default function ServicesSection() {
     />
   ));
   return (
-    <section className="container mx-auto p-6 my-10">
+    <section id="services" className="container mx-auto p-6 my-10">
       <SectionHeader title="Services">
         Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh
         lectus netus in. Aliquet donec morbi convallis pretium

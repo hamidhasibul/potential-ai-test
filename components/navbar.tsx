@@ -4,13 +4,13 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import ThemeSwitch from "./theme-switch";
 
-const links = [
-  { label: "Home", url: "/" },
-  { label: "About Me", url: "/about" },
-  { label: "Services", url: "/services" },
-  { label: "Projects", url: "/projects" },
-  { label: "Testimonials", url: "/testimonials" },
-  { label: "Contacts", url: "/contacts" },
+export const links = [
+  { label: "Home", url: "#" },
+  { label: "About Me", url: "#about" },
+  { label: "Services", url: "#services" },
+  { label: "Projects", url: "#projects" },
+  { label: "Testimonials", url: "#testimonials" },
+  { label: "Contacts", url: "#contact" },
 ];
 
 export default function Navbar() {

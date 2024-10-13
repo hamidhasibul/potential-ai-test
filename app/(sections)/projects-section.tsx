@@ -45,7 +45,7 @@ export default function ProjectsSection() {
       ? projects
       : projects.filter((project) => project.category === activeCategory);
   return (
-    <section className="container mx-auto p-6 my-10">
+    <section id="projects" className="container mx-auto p-6 my-10">
       <SectionHeader title="My Projects">
         Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh
         lectus netus in. Aliquet donec morbi convallis pretium
