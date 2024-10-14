@@ -10,7 +10,7 @@ import linkedinIcon from "@/assets/images/linkedin-icon.svg";
 export default function HeroSection() {
   return (
     <section id="hero" className="container mx-auto p-6 my-10">
-      <div className="grid grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/*Hero Text  */}
         <div className="flex items-center justify-start">
           <div className="space-y-4">
