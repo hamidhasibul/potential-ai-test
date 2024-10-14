@@ -51,8 +51,8 @@ export default function Slider() {
   const renderTestimonial = testimonials.map((testimonial) => (
     <SwiperSlide key={testimonial.id}>
       <div className="bg-[#f8f8f8] p-6 rounded-lg transition-all duration-300 swiper-slide-content">
-        <div className="flex items-center justify-between">
-          <div className="mr-10">
+        <div className="flex flex-col md:flex-row items-center justify-between">
+          <div className="md:mr-10">
             <div className="w-32 h-32 mx-auto rounded-full overflow-hidden">
               <Image
                 src={testimonial.img}
@@ -64,8 +64,8 @@ export default function Slider() {
               />
             </div>
           </div>
-          <div className="flex-1">
-            <blockquote className="text-gray-600 mb-4 text-sm">
+          <div className="md:flex-1">
+            <blockquote className="text-gray-600 mb-4 text-xs md:text-sm">
               <span className="text-pumpkin-600 text-lg font-semibold">
                 &#x201D;
               </span>
@@ -95,6 +95,20 @@ export default function Slider() {
           bulletClass: "swiper-pagination-bullet custom-bullet",
           bulletActiveClass:
             "swiper-pagination-bullet-active custom-bullet-active",
+        }}
+        breakpoints={{
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 2,
+            spaceBetween: 50,
+          },
         }}
         autoplay={true}
         centeredSlides={true}

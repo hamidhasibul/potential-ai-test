@@ -13,14 +13,16 @@ export default function HeroSection() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/*Hero Text  */}
         <div className="flex items-center justify-start">
-          <div className="space-y-4">
-            <p className="text-2xl">Hi I am</p>
+          <div className="md:space-y-4 space-y-2 text-center md:text-start">
+            <p className="md:text-2xl">Hi I am</p>
             <p className="text-3xl font-semibold text-pumpkin-600">
               Muhammad Umair
             </p>
             <div className="">
-              <h3 className="text-8xl font-bold">UI & UX</h3>
-              <h3 className="text-8xl font-bold mb-8 ml-48">Designer</h3>
+              <h3 className="md:text-8xl text-5xl font-bold">UI & UX</h3>
+              <h3 className="md:text-8xl text-5xl font-bold mb-8 md:ml-48">
+                Designer
+              </h3>
             </div>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
@@ -29,7 +31,11 @@ export default function HeroSection() {
               nemo quo, quidem impedit officia ullam!
             </p>
 
-            <Button variant={"pumpkin"} size={"lg"} className="dark:text-white">
+            <Button
+              variant={"pumpkin"}
+              size={"lg"}
+              className=" dark:text-white"
+            >
               Hire Me
             </Button>
           </div>
@@ -37,7 +43,7 @@ export default function HeroSection() {
         {/* Hero Image */}
         <div className="flex flex-col items-center relative space-y-5">
           <Image src={heroImg} alt="hero image" className="w-[540px] mx-auto" />
-          <div className="bg-pumpkin-600/60 w-80 h-20 absolute top-16"></div>
+          <div className="bg-pumpkin-600/60 w-60 md:w-80 h-16 md:h-20 absolute md:top-16 top-5"></div>
           {/* social icons */}
           <div className="flex items-center justify-between gap-6">
             <Image

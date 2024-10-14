@@ -52,7 +52,7 @@ export default function ProjectsSection() {
       </SectionHeader>
 
       {/* Tab Buttons */}
-      <div className="flex items-center justify-center gap-6 mb-10">
+      <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-10">
         {categories.map((category) => (
           <Button
             key={category}

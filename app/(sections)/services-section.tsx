@@ -49,7 +49,7 @@ export default function ServicesSection() {
         Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh
         lectus netus in. Aliquet donec morbi convallis pretium
       </SectionHeader>
-      <div className="flex items-center justify-between gap-6">
+      <div className="flex flex-col md:flex-row items-center justify-between gap-6">
         {renderServices}
       </div>
     </section>

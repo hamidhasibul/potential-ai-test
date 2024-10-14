@@ -8,17 +8,19 @@ import { Slider } from "@/components/ui/slider";
 export default function AboutSection() {
   return (
     <section id="about" className="container mx-auto p-6 my-10">
-      <div className="flex items-center justify-between">
+      <div className="flex flex-col-reverse md:flex-row items-center justify-between">
         {/* image */}
-        <div className="w-1/2 flex items-center relative">
-          <Image src={heroImg} alt="hero image" className="w-[540px]" />
-          <div className="bg-pumpkin-600/60 w-80 h-20 absolute top-16 left-24"></div>
+        <div className="md:w-1/2 w-full flex items-center relative">
+          <Image src={heroImg} alt="hero image" className="md:w-[540px] w-96" />
+          <div className="bg-pumpkin-600/60 w-60 md:w-80 md:h-20 h-12 absolute top-10 md:top-16 left-10 md:left-24"></div>
         </div>
 
         {/* content */}
-        <div className="w-1/2 space-y-4">
-          <h4 className="font-semibold text-6xl">About Me</h4>
-          <p className="text-wrap">
+        <div className="md:w-1/2 w-full space-y-4">
+          <h4 className="font-semibold text-6xl md:text-start text-center">
+            About Me
+          </h4>
+          <p className="text-wrap md:text-start text-center">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam
             rerum reiciendis maiores ipsum magnam ut illum, aliquid ratione,
             aperiam non voluptatibus! Sit dolorum nulla ullam sapiente nisi

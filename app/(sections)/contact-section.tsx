@@ -10,7 +10,7 @@ export default function ContactSection() {
         Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh
         lectus netus in. Aliquet donec morbi convallis pretium
       </SectionHeader>
-      <div className="w-1/2 mx-auto flex items-center justify-center gap-6">
+      <div className="md:w-1/2 w-full mx-auto flex flex-col md:flex-row items-center justify-center gap-6">
         <Input
           type="email"
           placeholder="Enter your email"

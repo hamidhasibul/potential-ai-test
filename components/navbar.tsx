@@ -30,7 +30,7 @@ export default function Navbar() {
             <span className="text-black/70 dark:text-white">umair</span>
           </h4>
         </div>
-        <div className="flex items-center font-medium gap-6 ">
+        <div className="hidden md:flex items-center font-medium gap-6 ">
           {renderLinks}
           <ThemeSwitch />
           <Button variant={"pumpkin"} size={"lg"} className="dark:text-white">

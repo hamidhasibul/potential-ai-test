@@ -9,7 +9,7 @@ type Props = {
 
 export default function ServiceCard({ title, description, icon }: Props) {
   return (
-    <div className="bg-[#f8f8f8] w-1/4 rounded-lg px-4 py-10 space-y-6 dark:text-black">
+    <div className="bg-[#f8f8f8] md:w-1/4 w-full rounded-lg px-4 py-10 space-y-6 dark:text-black">
       <Image src={icon} alt={title} />
       <h4 className="font-semibold text-3xl dark:text-black">{title}</h4>
       <p className="text-lg">{description}</p>

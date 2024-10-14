@@ -25,7 +25,7 @@ export default function Footer() {
           </h4>
         </div>
 
-        <div className="flex items-center justify-center font-medium gap-6">
+        <div className="flex flex-col md:flex-row items-center justify-center font-medium gap-6">
           {renderLinks}
         </div>
 
