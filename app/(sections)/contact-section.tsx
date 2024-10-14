@@ -16,7 +16,9 @@ export default function ContactSection() {
           placeholder="Enter your email"
           className="bg-zinc-100"
         />
-        <Button variant={"pumpkin"}>Contact Me</Button>
+        <Button variant={"pumpkin"} className="dark:text-white">
+          Contact Me
+        </Button>
       </div>
     </section>
   );

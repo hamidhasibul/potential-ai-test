@@ -96,6 +96,7 @@ export default function Slider() {
           bulletActiveClass:
             "swiper-pagination-bullet-active custom-bullet-active",
         }}
+        autoplay={true}
         centeredSlides={true}
         spaceBetween={100}
         slidesPerView={2}

@@ -29,7 +29,7 @@ export default function HeroSection() {
               nemo quo, quidem impedit officia ullam!
             </p>
 
-            <Button variant={"pumpkin"} size={"lg"}>
+            <Button variant={"pumpkin"} size={"lg"} className="dark:text-white">
               Hire Me
             </Button>
           </div>
